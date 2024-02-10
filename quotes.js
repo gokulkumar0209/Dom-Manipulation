@@ -1,7 +1,7 @@
 // Variables
 let btn=document.querySelector('#new-quote');
-let quote=document.querySelector('.quote');
-let preson=document.querySelector('.person')
+let quoteclass=document.querySelector('.quote');
+let presonclass=document.querySelector('.person')
 
 const quotes = [
     { 
@@ -27,6 +27,6 @@ const quotes = [
 ];
 btn.addEventListener('click',function(){
     let random = Math.floor(Math.random()* quotes.length);
-    quote.innerText=quotes[random].quote;
-    preson.innerText=quotes[random].person;
+    quoteclass.innerText=quotes[random].quote;
+    presonclass.innerText=quotes[random].person;
 })
