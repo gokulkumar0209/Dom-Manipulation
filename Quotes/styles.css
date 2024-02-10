@@ -10,11 +10,12 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    text-align: center;
+    text-align: center;  
     background: url(images/ocean.jpg) no-repeat center /cover;
 }
+
 .container{
-    width: 500px;
+    width: 600px;
     height: 400px;
 }
 .header{
@@ -38,13 +39,15 @@ body{
 }
 
 .main-content .text-area{
-    font-size: 0.6rem;
+     text-align: left;
+    font-size: 1rem;
     line-height: 1.5;
 }
 .main-content .person{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     color: red;
     margin-top: 20px;
+    text-align: right;
 }
 
 .button-area button {
