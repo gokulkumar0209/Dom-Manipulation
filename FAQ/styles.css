@@ -24,7 +24,7 @@ body{
     position: relative;
 }
 
-.accordion .content-container .question::after{
+.accordion .content-container .question::after {
     content: '+';
     position: absolute;
     right: -5px;
@@ -40,10 +40,15 @@ body{
 }
 
 /* Javascript */
-.accordion .content-container .active .answer{
+.accordion .content-container.active .answer{
     height: 150px;
 }
-.accordion .content-container .active .question{
+.accordion .content-container.active .question{
    font-size: 18px;
    transition: .5s;
+}
+.accordion .content-container.active .question::after{
+    content: '-';
+    font-size: 30px;
+    transition: .5s;
 }

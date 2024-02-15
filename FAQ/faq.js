@@ -1,7 +1,9 @@
-const accordian=document.getElementsByClassName('content-container');
-console.log(accordian)
-for(let i=0;i<accordian.length;i++){
-    accordian[i].addEventListener('click',function(){
+const accordion=document.getElementsByClassName('content-container');
+// console.log('Hi')
+console.log(accordion);
+for(let i=0;i<accordion.length;i++){
+    accordion[i].addEventListener('click',function(){
+        console.log(this.classList);
         this.classList.toggle('active')
     });
-}
+};
