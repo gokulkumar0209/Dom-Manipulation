@@ -1,0 +1,29 @@
+body{
+    /* height: 100vh; */
+    background: url(img/tasker.jpg) no-repeat center/ cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 100%;
+}
+.input{
+  background-color:gray;
+  color: black;
+  padding: 5px;
+  border-radius: 4px;
+  box-shadow: 2px;
+  font-size: 1.5rem;
+}
+.add-btn{
+    font-size: 1.5rem;
+    padding: 5px;
+    border-radius: 4px;
+    color:black;
+    background-color: gray;
+}
+#rem-task{
+    color: greenyellow;
+    background-color: green;
+}
