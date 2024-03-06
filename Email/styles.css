@@ -1,0 +1,32 @@
+body{
+    height: 100vh;
+    background-color:brown;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+.container{
+ /* height: 20% ; */
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+#email{
+    background-color: yellow;
+    margin-bottom: 10px;
+}
+#password{
+    background-color:yellow;
+    margin-bottom: 10px;
+}
+#login-btn{
+    color: darkgreen;
+    background-color: lightgreen;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
