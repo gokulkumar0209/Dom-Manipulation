@@ -6,27 +6,58 @@ body{
     align-items: center;
     
 }
-.container{
+.login-container{
  /* height: 20% ; */
     display: flex;
     flex-direction: column;
     margin: 0;
 }
-#email{
+.login-container #ln-email{
     background-color: yellow;
     margin-bottom: 10px;
 }
-#password{
+.login-container #ln-password{
     background-color:yellow;
     margin-bottom: 10px;
 }
-#login-btn{
+.login-container #login-btn{
     color: darkgreen;
     background-color: lightgreen;
     width: 50px;
     align-items: center;
     justify-content: center;
     display: flex;
-
+    margin-bottom: 10px;
 }
-
+.login-container #create-account{
+    color: darkgreen;
+    background-color: lightgreen;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.signup-container{
+    display: none;
+    flex-direction: column;
+    margin: 0;
+}
+.signup-container #si-email{
+    background-color: yellow;
+    margin-bottom: 10px;
+}
+.signup-container #si-password{
+    background-color: yellow;
+    margin-bottom: 10px;
+}
+#signup-btn{
+    color: darkgreen;
+    background-color: lightgreen;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.home-page-container{
+    display: none;
+}
