@@ -1,6 +1,7 @@
 let email=document.getElementById('ln-email')
 let password=document.getElementById('ln-password')
 let login_btn=document.getElementById('login-btn')
+let create_account_btn=document.getElementById('create-account')
 let map=new Map()
 let arr=[]
 map.set('hulk@gmail.com','hulk@123')
@@ -19,4 +20,24 @@ if(map.has(email.value)){
         home_page_container.style.display='flex'
     }
 }
+})
+create_account_btn.addEventListener('click',function(){
+    let login_container=document.querySelector('.login-container')
+        login_container.style.display='none' 
+    let signup_container=document.querySelector('.signup-container')   
+        signup_container.style.display='flex' 
+})
+
+let si_email=document.getElementById('si-email')
+let si_password=document.getElementById('si-password')
+let si_btn=document.getElementById('signup-btn')
+si_btn.addEventListener('click',function(){
+    if(!map.has(si_email.value)){
+        map.set(si_email.value,si_password.value)
+        let signup_container=document.querySelector('.signup-container')   
+        signup_container.style.display='none' 
+        let login_container=document.querySelector('.login-container')
+        login_container.style.display='flex' 
+
+    }
 })
